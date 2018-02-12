@@ -24,6 +24,7 @@ Funakoshi Equihash Cuda Miner
     the reported solves per second to change all the time.
     
     Each 15 seconds, Funakoshi solver logs its counters of hashes/secs and solves/secs (no cheating).
+    Disregard the first reported speed (it is lower due to initial handshake with the pool).
     
     What's important to you is the pool measurement. From the pool you earn your money.
     Thus when you want to compare the speed of different miner programs ask the pool.
