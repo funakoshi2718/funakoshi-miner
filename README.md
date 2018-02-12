@@ -43,6 +43,7 @@ Funakoshi Equihash Cuda Miner
     * Miningspeed
     * Coinmine
     * Miningpoolhub
+    * Nibirupool
 
 _**Note:** Only secured ports (SSL connections) are supported._
  
@@ -98,3 +99,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
 ## Usage example (on Windows & via Miningpoolhub US-East server & using 4 Nvidia devices):
 
     funakoshiMiner.exe -cd 0 1 2 3 -l us-east.equihash-hub.miningpoolhub.com:20570 -u userName.workerName
+
+## Usage example (on Windows & Mining ZEN via Nibirupool  & using 4 Nvidia devices):
+
+    funakoshiMiner.exe -cd 0 1 2 3 -l zen.nibirupool.com :7777 -u tYourWalletAddress.workerName
