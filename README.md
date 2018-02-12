@@ -56,7 +56,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
 
 ## Tested on:
 
-    * Windows7 
+    * Windows7, 10 
     * Ubuntu 16.4, 17.10
     * Fedora 26, 27
 
