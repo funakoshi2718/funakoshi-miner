@@ -102,4 +102,4 @@ _**Note:** Only secured ports (SSL connections) are supported._
 
 ## Usage example (on Windows & Mining ZEN via Nibirupool  & using 4 Nvidia devices):
 
-    funakoshiMiner.exe -cd 0 1 2 3 -l zen.nibirupool.com :7777 -u tYourWalletAddress.workerName
+    funakoshiMiner.exe -cd 0 1 2 3 -l zen.nibirupool.com:7777 -u tYourWalletAddress.workerName
