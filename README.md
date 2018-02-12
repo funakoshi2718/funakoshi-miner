@@ -48,8 +48,8 @@ _**Note:** Only secured ports (SSL connections) are supported._
  
 ## Supported Operating Systems:
 
-     * Windows7 and above  (download file: funakoshiMiner.exe)
-     * Some Linux distributions  (download file: funakoshiMiner)
+     * Windows7 and above  (file: funakoshiMiner.exe)
+     * Some Linux distributions  (file: funakoshiMiner)
 
 ## Tested on:
 
@@ -71,30 +71,30 @@ _**Note:** Only secured ports (SSL connections) are supported._
     * Nvidia GTX 1080
     * Nvidia GTX 1080 Ti
 
-## Usage example (on Linux & via Slushpool & using 1 nVidia device):
+## Usage example (on Linux & via Slushpool & using 1 Nvidia device):
 
     funakoshiMiner -cd 0 -l zec.slushpool.com:4443 -u userName.workerName
 
-## Usage example (on Linux & via Supernova & using 1 nVidia device & max GPU temperature):
+## Usage example (on Linux & via Supernova & using 1 Nvidia device & max GPU temperature):
 
     funakoshiMiner -cd 0 -l zec.suprnova.cc:2242 -u userName.workerName -temp-max 82 -temp-min 75
 
-## Usage example (on Windows & via Flypool Europe server & using 3 nVidia devices):
+## Usage example (on Windows & via Flypool Europe server & using 3 Nvidia devices):
 
     funakoshiMiner.exe -cd 0 1 2 -l eu1-zcash.flypool.org:3443 -u tYourWalletAddress.workerName
 
-## Usage example (on Linux & via Nanopool Europe server & using 2 nVidia devices):
+## Usage example (on Linux & via Nanopool Europe server & using 2 Nvidia devices):
 
     funakoshiMiner -cd 0 1 -l zec-eu1.nanopool.org:6633 -u tYouWalletAddress.workerName
 
-## Usage example (on Linux & Mining ZClassic via Miningspeed US server & using 3 nVidia devices):
+## Usage example (on Linux & Mining ZClassic via Miningspeed US server & using 3 Nvidia devices):
 
     funakoshiMiner -cd 0 1 2 -l us.miningspeed.com:3054 -u tYouWalletAddress.workerName
 
-## Usage example (on Windows & Mining ZClassic via Coinmine & using 4 nVidia devices):
+## Usage example (on Windows & Mining ZClassic via Coinmine & using 4 Nvidia devices):
 
     funakoshiMiner.exe -cd 0 1 2 3 -l zcl.coinmine.pl:7017 -u userName.workerName
 
-## Usage example (on Windows & via Miningpoolhub US-East server & using 4 nVidia devices):
+## Usage example (on Windows & via Miningpoolhub US-East server & using 4 Nvidia devices):
 
     funakoshiMiner.exe -cd 0 1 2 3 -l us-east.equihash-hub.miningpoolhub.com:20570 -u userName.workerName
