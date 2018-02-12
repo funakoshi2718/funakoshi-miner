@@ -16,7 +16,9 @@ Funakoshi Equihash Cuda Miner
 
 ## Speed:
 
-    Over 500 solves per-second for GTX 1080.
+    Over 500 solves per-second for GTX 1080 (without overclocking).
+    
+    Nvidia Pascal GPUs auto manage the clock depending on current load.
     
     Note: The statistical nature of the EquiHash algorithm causes
     the reported solves per second to change all the time.
