@@ -1,9 +1,9 @@
-# cuda-miner
+# Zcash-miner
 Funakoshi Equihash Cuda Miner
 
 ## Can be used for mining:
 
-     All equihash crypto coins: zcash (ZEC), ZClassic (ZCL), ...
+     All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
      via any of the supported pools (using SSL ports).
 
 ## No Virus attached:
