@@ -75,7 +75,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
     * Nvidia GTX 1080
     * Nvidia GTX 1080 Ti
 
-## Command arguments:
+## Command-Line arguments:
 
     * Pool Address   : -l poolDomain:sslPort  (domain of pool server plus SSL port)
     * Pool User      : -u user.worker (your account name in the pool plus worker name)
