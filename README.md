@@ -75,6 +75,23 @@ _**Note:** Only secured ports (SSL connections) are supported._
     * Nvidia GTX 1080
     * Nvidia GTX 1080 Ti
 
+## Command arguments:
+
+    * Pool Address   : -l poolDomain:sslPort  (domain of pool server plus SSL port)
+    * Pool User      : -u user.worker (your account name in the pool plus worker name)
+    * Wallet Address : -u tWalletAddress.worker (your t wallet address plus worker name)
+    * Max temperature: -temp-max (celsius) when reached solver suspends work until temp' drops to -temp-min
+    * Min temperature: -temp-min when GPU temp' drops from temp-max to temp-min work is resumed
+
+Notes:
+
+    Pascal GPUs auto control clock speed to prevent the temperature from going too high.
+    To be on the safe size you can set -temp-max to 83 and -temp-min to 75 (for example).
+
+    Some pools require you to sing-up and define an account. For those pools the account-name
+    is passed in the -u argument. Other pools require you to pass your 't' wallet address and
+    for those pools your wallet-address is passed in the -u argument.
+
 ## Usage example (on Linux & via Slushpool & using 1 Nvidia device):
 
     funakoshiMiner -cd 0 -l zec.slushpool.com:4443 -u userName.workerName
