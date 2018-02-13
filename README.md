@@ -53,11 +53,11 @@ _**Note:** Only secured ports (SSL connections) are supported._
 ## Supported Operating Systems:
 
      * Windows7 and above  (file: funakoshiMiner.exe)
-     * Some Linux distributions  (file: funakoshiMiner)
+     * The following Linux distributions: Ubuntu, Fedora  (file: funakoshiMiner)
 
 ## Tested on:
 
-    * Windows7, 10 
+    * Windows 7, 10 
     * Ubuntu 16.4, 17.10
     * Fedora 26, 27
 
