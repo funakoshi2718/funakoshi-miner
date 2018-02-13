@@ -52,7 +52,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
  
 ## Supported Operating Systems:
 
-     * Windows7 and above  (file: funakoshiMiner.exe)
+     * Windows-7 and above  (file: funakoshiMiner.exe)
      * The following Linux distributions: Ubuntu, Fedora  (file: funakoshiMiner)
 
 ## Tested on:
@@ -88,7 +88,7 @@ Notes:
     Pascal GPUs auto control clock speed to prevent the temperature from going too high.
     To be on the safe size you can set -temp-max to 83 and -temp-min to 75 (for example).
 
-    Some pools require you to sing-up and define an account. For those pools the account-name
+    Some pools require you to sign-up and define an account. For those pools the account-name
     is passed in the -u argument. Other pools require you to pass your 't' wallet address and
     for those pools your wallet-address is passed in the -u argument.
 
