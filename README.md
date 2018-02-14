@@ -81,6 +81,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
 
 ## Command-Line arguments:
 
+    * Selected GPUs  : -cd 0 1 2 ... (selects which cuda-devices meaning GPUs to use - starting from 0)
     * Pool Address   : -l poolDomain:sslPort  (domain of pool server plus SSL port)
     * Pool User      : -u user.worker (your account name in the pool plus worker name)
     * Wallet Address : -u tWalletAddress.worker (your t wallet address plus worker name)
