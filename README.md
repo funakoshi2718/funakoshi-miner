@@ -6,6 +6,10 @@ Funakoshi Equihash Cuda Miner
      All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
      via any of the supported pools (using SSL ports).
 
+## Download Funakoshi Miner:
+
+https://github.com/funakoshi2718/funakoshi-miner/releases
+
 ## No Virus attached:
 
     Ask McAfee
@@ -91,10 +95,6 @@ Notes:
     Some pools require you to sign-up and define an account. For those pools the account-name
     is passed in the -u argument. Other pools require you to pass your 't' wallet address and
     for those pools your wallet-address is passed in the -u argument.
-
-## Download Funakoshi Miner:
-
-https://github.com/funakoshi2718/funakoshi-miner/releases
 
 ## Usage example (on Linux & via Slushpool & using 1 Nvidia device):
 
