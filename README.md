@@ -92,6 +92,10 @@ Notes:
     is passed in the -u argument. Other pools require you to pass your 't' wallet address and
     for those pools your wallet-address is passed in the -u argument.
 
+## How to download the software:
+
+    releases-page: https://github.com/funakoshi2718/funakoshi-miner/releases
+
 ## Usage example (on Linux & via Slushpool & using 1 Nvidia device):
 
     funakoshiMiner -cd 0 -l zec.slushpool.com:4443 -u userName.workerName
