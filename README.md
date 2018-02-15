@@ -87,6 +87,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
     * Wallet Address : -u tWalletAddress.worker (your t wallet address plus worker name)
     * Max temperature: -temp-max (celsius) when reached solver suspends work until temp' drops to -temp-min
     * Min temperature: -temp-min when GPU temp' drops from temp-max to temp-min work is resumed
+    * Password       : -p x (usually not required)
 
 Notes:
 
