@@ -123,7 +123,7 @@ Notes:
 
     funakoshiMiner.exe -cd 0 1 2 3 -l zcl.coinmine.pl:7017 -u userName.workerName
 
-## Usage example (on Windows & via Miningpoolhub US-East server & using 4 Nvidia devices):
+## Usage example (on Windows & Mining Zcash via Miningpoolhub US-East server & using 4 Nvidia devices):
 
     funakoshiMiner.exe -cd 0 1 2 3 -l us-east.equihash-hub.miningpoolhub.com:20570 -u userName.workerName
 
