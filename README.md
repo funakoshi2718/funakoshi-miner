@@ -51,6 +51,7 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
     * Coinmine
     * Miningpoolhub
     * Nibirupool
+    * Luckpool
 
 _**Note:** Only secured ports (SSL connections) are supported._
  
@@ -129,3 +130,7 @@ Notes:
 ## Usage example (on Windows & Mining ZEN via Nibirupool  & using 4 Nvidia devices):
 
     funakoshiMiner.exe -cd 0 1 2 3 -l zen.nibirupool.com:7777 -u znYourWalletAddress.workerName
+
+## Usage example (on Windows & Mining Zcash via Luckpool  & using 4 Nvidia devices):
+
+    funakoshiMiner.exe -cd 0 1 2 3 -l luckpool.org:3358 -u tYourWalletAddress.workerName
