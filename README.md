@@ -77,6 +77,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
 ## Tested GPUs:
 
     * Nvidia GTX 1070
+    * Nvidia GTX 1070 Ti
     * Nvidia GTX 1080
     * Nvidia GTX 1080 Ti
 
@@ -86,9 +87,10 @@ _**Note:** Only secured ports (SSL connections) are supported._
     * Pool Address   : -l poolDomain:sslPort  (domain of pool server plus SSL port)
     * Pool User      : -u user.worker (your account name in the pool plus worker name)
     * Wallet Address : -u tWalletAddress.worker (your t wallet address plus worker name)
-    * Max temperature: -temp-max (celsius) when reached solver suspends work until temp' drops to -temp-min
-    * Min temperature: -temp-min when GPU temp' drops from temp-max to temp-min work is resumed
+    * Max Temperature: -temp-max (celsius) when reached solver suspends work until temp' drops to -temp-min
+    * Min Temperature: -temp-min when GPU temp' drops from temp-max to temp-min work is resumed
     * Password       : -p x (usually not required)
+    * Log File       : -f fileName (from release v0.9)
 
 Notes:
 
