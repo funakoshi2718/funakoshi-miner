@@ -94,6 +94,10 @@ _**Note:** Only secured ports (SSL connections) are supported._
 
 Notes:
 
+    The first specified -temp-max val -temp-min val2 pair is applied to the first GPU.
+    The second specified temperature bounds is applied to the second GPU ...
+    This enables you to specify different temperature bounds for each GPU card.
+
     Pascal GPUs auto control clock speed to prevent the temperature from going too high.
     To be on the safe size you can set -temp-max to 83 and -temp-min to 75 (for example).
 
