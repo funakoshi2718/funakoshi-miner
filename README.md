@@ -87,8 +87,11 @@ _**Note:** Only secured ports (SSL connections) are supported._
     * Pool Address   : -l poolDomain:sslPort  (domain of pool server plus SSL port)
     * Pool User      : -u user.worker (your account name in the pool plus worker name)
     * Wallet Address : -u tWalletAddress.worker (your t wallet address plus worker name)
-    * Max Temperature: -temp-max (celsius) when reached solver suspends work until temp' drops to -temp-min
-    * Min Temperature: -temp-min when GPU temp' drops from temp-max to temp-min work is resumed
+    * Max Temperature: -temp-max t1 t2 ... one value (celsius) per each gpu. when reached
+                        solver suspends work until temp' drops to corresponding -temp-min
+    * Same Max Temp' : -temp-max-all for specifying the same max-temperature for all gpu's (from release v1.3)
+    * Min Temperature: -temp-min t1 t2 ... when GPU temp' drops from temp-max to temp-min work is resumed
+    * Same Min Temp' : -temp-min-all for specifying the same min-temperature for all gpu's (from release v1.3)
     * Password       : -p x (usually not required)
     * Log File       : -f fileName (from release v0.9)
 
