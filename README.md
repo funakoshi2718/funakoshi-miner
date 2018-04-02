@@ -1,6 +1,8 @@
 # Zcash-miner
 Funakoshi Equihash Cuda Miner
 
+Fastest solver for GTX 1080 (both on Windows and on Linux).
+
 ## Can be used for mining:
 
      All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
