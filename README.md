@@ -1,7 +1,8 @@
 # Zcash-miner
 Funakoshi Equihash Cuda Miner
 
-Fastest solver for GTX 1080 (both on Windows and on Linux).
+A breakthrough in performance has been implemented in release v1.2
+Now Funakoshi-Miner is the fastest equihash solver.
 
 ## Can be used for mining:
 
