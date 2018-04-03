@@ -1,7 +1,7 @@
 # Zcash-miner
 Funakoshi Equihash Cuda Miner
 
-A breakthrough in performance has been implemented in release v1.2
+A breakthrough in performance has been implemented in release v2.1
 
 Now Funakoshi-Miner is the fastest equihash solver.
 
