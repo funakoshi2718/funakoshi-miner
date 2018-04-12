@@ -1,7 +1,10 @@
 # Zcash-miner
 Funakoshi Equihash Cuda Miner
 
+In release v2.2 there is a jump in performance when using multiple gpu's (rig).
+
 A breakthrough in performance has been implemented in release v2.1
+
 
 Now Funakoshi-Miner is the fastest equihash solver.
 
