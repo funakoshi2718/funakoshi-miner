@@ -1,6 +1,8 @@
 # Zcash-miner
 Funakoshi Equihash Cuda Miner
 
+In release v2.3 added simple telemetry, fixed bugs wasting cpu, and improved stability.
+
 In release v2.2 there is a jump in performance when using multiple gpu's (rig).
 
 A breakthrough in performance has been implemented in release v2.1
@@ -87,6 +89,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
     * Nvidia GTX 1070 Ti
     * Nvidia GTX 1080
     * Nvidia GTX 1080 Ti
+    * Titan Xp collector's edition
 
 ## Command-Line arguments:
 
@@ -98,8 +101,11 @@ _**Note:** Only secured ports (SSL connections) are supported._
                         solver suspends work until temp' drops to corresponding -temp-min
     * Min Temperature: -temp-min t1 t2 ... one value (celsius) per each GPU. When GPU temp'
                         drops from corresponding temp-max to temp-min work is resumed
+    * Max Temp' all  : -temp-max-all t (defines same upper temperature bound for all GPUs).
+    * Min Temp' all  : -temp-min-all t (defines same lower temperature bound for all GPUs).
     * Password       : -p x (usually not required)
     * Log File       : -f fileName (from release v0.9)
+    * Telemetry      : -tele-port p  (activates http telemetry and listening on 127.0.0.1:p).
 
 Notes:
 
@@ -109,6 +115,10 @@ Notes:
     Some pools require you to sign-up and define an account. For those pools the account-name
     is passed in the -u argument. Other pools require you to pass your 't' wallet address and
     for those pools your wallet-address is passed in the -u argument.
+    
+    When running the miner and Chrome (for viewing telemetry) on the same machine, Chrome may
+    prevent Pascal GPUs from auto boosting. Thus it is recommended to run Firefox on the same
+    machine or to run Chrome on another machine and use SSH tunnel.
 
 ## Usage example (on Linux & via Slushpool & using 1 Nvidia device):
 
