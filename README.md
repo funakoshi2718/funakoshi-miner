@@ -105,7 +105,7 @@ _**Note:** Only secured ports (SSL connections) are supported._
     * Min Temp' all  : -temp-min-all t (defines same lower temperature bound for all GPUs).
     * Password       : -p x (usually not required)
     * Log File       : -f fileName (from release v0.9)
-    * Telemetry      : -tele-port p  (activates http telemetry and listening on 127.0.0.1:p).
+    * Telemetry      : -tele-port p  (activating http telemetry and listening on 127.0.0.1:p).
 
 Notes:
 
