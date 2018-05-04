@@ -62,7 +62,14 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
     * Nibirupool
     * Luckpool
 
-_**Note:** Only secured ports (SSL connections) are supported._
+## Why SSL:
+
+    Only secured ports (SSL connections) are supported.
+    The reason for that is to protect the developer fee
+    from being removed or redirected by proxy servers.
+    Funakoshi-Miner opens only a single connection (to the user specified pool).
+    This can be verified by using a sniffer or a firewall.
+    Thus theoreticaly no data about users can be accumulated by the miner.
  
 ## Supported Operating Systems:
 
