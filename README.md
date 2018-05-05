@@ -67,9 +67,13 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
     Only secured ports (SSL connections) are supported.
     The reason for that is to protect the developer fee
     from being removed or redirected by proxy servers.
+    
+## Privacy:
+
+    Funakoshi-Miner collects absolutely nothing about its users.
     Funakoshi-Miner opens only a single connection (to the user specified pool).
     This can be verified by using a sniffer or a firewall.
-    Thus theoreticaly no data about users can be accumulated by the miner.
+    Thus theoreticaly no data about users can be collected by the miner.
  
 ## Supported Operating Systems:
 
