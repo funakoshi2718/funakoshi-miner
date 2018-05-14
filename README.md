@@ -105,7 +105,8 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 ## Command-Line arguments:
 
     * Selected GPUs  : -cd 0 1 2 ... (selects which cuda-devices meaning GPUs to use - starting from 0)
-                            The default when -cd arg is not specified is to use all found Nvidia gpu cards (from v2.5).
+                            The default when -cd arg is not specified is to use all found Nvidia gpu cards
+                            (from v2.5).
     * Pool Address   : -l poolDomain:sslPort  (domain of pool server plus SSL port)
                             Port number is optional for: flypool, nanopool, suprnova, slushpool, coinmine.
                             For these pools the port number is auto fixed to the pool's ssl port when port
