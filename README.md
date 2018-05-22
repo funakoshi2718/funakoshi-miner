@@ -1,6 +1,8 @@
 # Zcash-miner
 Funakoshi Equihash Cuda Miner
 
+In release v2.6 performance of GTX 1060 (6 GB) has jumped. Small performance gain for other cards.
+
 In release v2.3 added simple telemetry, fixed bugs wasting cpu, and improved stability.
 
 In release v2.2 there is a jump in performance when using multiple gpu's (rig).
@@ -96,6 +98,7 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
 ## Tested GPUs:
 
+    * Mvodoa GTX 1060 6 GB
     * Nvidia GTX 1070
     * Nvidia GTX 1070 Ti
     * Nvidia GTX 1080
