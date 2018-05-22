@@ -98,7 +98,7 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
 ## Tested GPUs:
 
-    * Mvodoa GTX 1060 6 GB
+    * Mvidia GTX 1060 6 GB
     * Nvidia GTX 1070
     * Nvidia GTX 1070 Ti
     * Nvidia GTX 1080
