@@ -1,7 +1,7 @@
 # Zcash-miner
 Funakoshi Equihash Cuda Miner
 
-In release v2.6 performance of GTX 1060 (6 GB) has jumped. Small performance gain for other cards.
+In release v2.6 performance of GTX 1060 (6 GB) has jumped. Smaller performance gain for other cards.
 
 In release v2.3 added simple telemetry, fixed bugs wasting cpu, and improved stability.
 
