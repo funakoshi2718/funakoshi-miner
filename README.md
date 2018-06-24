@@ -5,7 +5,7 @@ In release v3.0 EquiHash POW algorithm with parameters 144,5 will be supported.
 
 To activate it just add **-144** to the command line.
 
-Funakoshi-Miner will be the fastest miner for **Bitcoin-Gold** with new Proof-Of-Work algorithm,
+Funakoshi-Miner will be the fastest miner for **Bitcoin-Gold** with the new Proof-Of-Work algorithm,
 
 # Zcash-miner
 Funakoshi Equihash Cuda Miner
