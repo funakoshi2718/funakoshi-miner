@@ -2,20 +2,22 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-Release v3.0 supports EquiHash POW algorithm with parameters <144,5>.
+Release v3.1 supports EquiHash POW algorithm with parameters <144,5>.
 
 To activate it just add **-144** to the command line.
 
 Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-Work algorithm,
 
-How to run Funakoshi-Miner on Windows and choose the test-pool testnet.pool.gold:
+How to run Funakoshi-Miner on Windows and choose the test-pool btg-testnet.miningspot.net:
 
-     zcashMiner.exe -l testnet.pool.gold -u your-btg-wallet -144
+     zcashMiner.exe -l btg-testnet.miningspot.net -u your-btg-test-wallet -144
 
+     Test pool test-pool.bitcoingold.org is also supported.
+     
 The following **BitcoinGold pools** are supported:
 
      suprnova, miningpoolhub, pool.gold, btgpool.pro, coinblockers.com,
-     bitcoingold.multipool.es, btg.mining4.co.uk, btg.2miners.com.
+     bitcoingold.multipool.es, btg.mining4.co.uk, btg.2miners.com
      
 Also supporting live pool btcz.suprnova.cc (bitcoinz).
 
