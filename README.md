@@ -8,7 +8,7 @@ To activate it just add **-144** to the command line.
 
 Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-Work algorithm,
 
-How to run Funakoshi-Miner on testnet.pool.gold:
+How to run Funakoshi-Miner on Windows and choose the test-pool testnet.pool.gold:
 
      zcashMiner.exe -l testnet.pool.gold -u your-btg-wallet -144
 
