@@ -10,7 +10,7 @@ Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-
 
 How to run Funakoshi-Miner on Windows and choose the test-pool btg-testnet.miningspot.net:
 
-     funakoshiMiner.exe -l btg-testnet.miningspot.net -u your-btg-test-wallet -144
+     funakoshiMiner.exe -l btg-testnet.miningspot.net -u your-btg-test-wallet.worker-name -144
 
      Test pool test-pool.bitcoingold.org is also supported.
      
