@@ -2,7 +2,7 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-Release v3.1 supports EquiHash POW algorithm with parameters <144,5>.
+Release v3.2 supports EquiHash POW algorithm with parameters <144,5>.
 
 To activate it just add **-144** to the command line.
 
