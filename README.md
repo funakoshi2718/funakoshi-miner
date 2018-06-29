@@ -143,7 +143,8 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
     * Max Temperature: -temp-max t1 t2 ... one value (celsius) per each GPU. When reached
                         solver suspends work until temp' drops to corresponding -temp-min
     * Min Temperature: -temp-min t1 t2 ... one value (celsius) per each GPU. When GPU temp'
-                        drops from corresponding temp-max to temp-min work is resumed
+                        drops from corresponding temp-max to temp-min work is resumed (since
+                        v3.2 -temp-min is defaulted to -temp-max minus 10 when not specified).
     * Max Temp' all  : -temp-max-all t (defines same upper temperature bound for all GPUs).
     * Min Temp' all  : -temp-min-all t (defines same lower temperature bound for all GPUs).
     * Password       : -p x (usually not required)
