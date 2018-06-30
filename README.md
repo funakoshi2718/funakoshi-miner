@@ -21,25 +21,6 @@ The following **BitcoinGold pools** are supported:
      
 Also supporting live pool btcz.suprnova.cc (bitcoinz).
 
-# Zcash-miner
-Funakoshi Equihash Cuda Miner
-
-In release v2.6 performance of GTX 1060 (6 GB) has jumped. Smaller performance gain for other cards.
-
-In release v2.3 added simple telemetry, fixed bugs wasting cpu, and improved stability.
-
-In release v2.2 there is a jump in performance when using multiple gpu's (rig).
-
-A breakthrough in performance has been implemented in release v2.1
-
-
-Now Funakoshi-Miner is the fastest equihash solver.
-
-## Can be used for mining:
-
-     All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
-     via any of the supported pools (using SSL ports).
-
 ## Download Funakoshi Miner:
 
 https://github.com/funakoshi2718/funakoshi-miner/releases
@@ -54,7 +35,10 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
 ## Speed:
 
+    Funakoshi-Miner is the fastest equihash solver.
+
     Over 500 solves per-second for GTX 1080 (without overclocking).
+    
     Average 37 to 38 sol/s for GTX 1080 <144,5>
     
     Nvidia Pascal GPUs auto manage the clock depending on current load.
@@ -76,15 +60,38 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
     
     Exactly 1.5 percent of all submited solves are used as developer fee.
 
+# Zcash-miner
+Funakoshi Equihash Cuda Miner
+
+In release v2.6 performance of GTX 1060 (6 GB) has jumped. Smaller performance gain for other cards.
+
+In release v2.3 added simple telemetry, fixed bugs wasting cpu, and improved stability.
+
+In release v2.2 there is a jump in performance when using multiple gpu's (rig).
+
+A breakthrough in performance has been implemented in release v2.1
+
+## Can be used for mining:
+
+     All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
+     via any of the supported pools (using SSL ports).
+
+
 ## Supported pools:
 
-    * Slushpool
     * Supernova
     * Flypool
+    * Miningpoolhub
+    * btgpool.pro
+    * coinblockers.com
+    * btg.2miners.com
+    * pool.gold
+    * bitcoingold.multipool.es
+    * btg.mining4.co.uk
+    * Slushpool
     * Nanopool
     * Miningspeed
     * Coinmine
-    * Miningpoolhub
     * Nibirupool
     * Luckpool
 
