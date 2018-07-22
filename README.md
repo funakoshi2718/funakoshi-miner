@@ -2,7 +2,7 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-Release v3.2 supports EquiHash POW algorithm with parameters <144,5>.
+Release v3.3 supports EquiHash POW algorithm with parameters <144,5>.
 
 To activate it just add **-144** to the command line.
 
@@ -16,7 +16,7 @@ How to run Funakoshi-Miner on Windows and choose the test-pool btg-testnet.minin
      
 The following **BitcoinGold pools** are supported:
 
-     suprnova, miningpoolhub, pool.gold, btgpool.pro, coinblockers.com,
+     suprnova, miningpoolhub, pool.gold, btgpool.pro, solo.btgpool.pro, coinblockers.com,
      bitcoingold.multipool.es, btg.mining4.co.uk, btg.2miners.com
      
 Also supporting live pool btcz.suprnova.cc (bitcoinz).
@@ -24,10 +24,6 @@ Also supporting live pool btcz.suprnova.cc (bitcoinz).
 ## Download Funakoshi Miner:
 
 https://github.com/funakoshi2718/funakoshi-miner/releases
-
-## No Virus attached:
-
-    Ask McAfee
 
 ## Developer fee:
 
