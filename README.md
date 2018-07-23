@@ -2,7 +2,7 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-Release v3.3 supports EquiHash POW algorithm with parameters <144,5>.
+Release v3.4 supports EquiHash POW algorithm with parameters <144,5>.
 
 To activate it just add **-144** to the command line.
 
@@ -153,7 +153,7 @@ A breakthrough in performance has been implemented in release v2.1
     * Password       : -p x (usually not required)
     * Log File       : -f fileName (from release v0.9)
     * Telemetry      : -tele-port p  (activating http telemetry and listening on 127.0.0.1:p).
-    * <144,5>        : -144 (use equihash parameters 144,5)
+    * <144,5>        : -144 (use equihash parameters 144,5). Default for BitcoinGold pools (since v3.4).
 
 Notes:
 
