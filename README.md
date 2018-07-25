@@ -2,6 +2,8 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
+In release v3.5 performance of EuqiHash<144, 5> has been improved by 5%.
+
 Release v3.4 supports EquiHash POW algorithm with parameters <144,5>.
 
 To activate it just add **-144** to the command line.
@@ -35,7 +37,7 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
     Over 500 solves per-second for GTX 1080 <200,9> (without overclocking).
     
-    Average 37 to 38 sol/s for GTX 1080 <144,5>
+    Average 40 sol/s for GTX 1080 <144,5>
     
     Nvidia Pascal GPUs auto manage the clock depending on current load.
     
