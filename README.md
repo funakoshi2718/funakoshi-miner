@@ -92,6 +92,7 @@ A breakthrough in performance has been implemented in release v2.1
     * Coinmine
     * Nibirupool
     * Luckpool
+    * zhash.pro (from v3.5)
 
 ## Why SSL:
 
