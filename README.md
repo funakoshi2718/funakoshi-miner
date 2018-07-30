@@ -2,6 +2,8 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
+In release v3.6 performance of EuqiHash<144, 5> has been improved by 2%.
+
 In release v3.5 performance of EuqiHash<144, 5> has been improved by 5%.
 
 Release v3.4 supports EquiHash POW algorithm with parameters <144,5>.
@@ -10,12 +12,20 @@ To activate it just add **-144** to the command line.
 
 Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-Work algorithm,
 
-How to run Funakoshi-Miner on Windows and choose the test-pool btg-testnet.miningspot.net:
+How to run Funakoshi-Miner on Windows and choose the Suprnova BitcoinGold pool:
 
-     funakoshiMiner.exe -l btg-testnet.miningspot.net -u your-btg-test-wallet.worker-name -144
+     funakoshiMiner.exe -l btg.suprnova.cc -u your-account-name.worker-name
 
-     Test pool test-pool.bitcoingold.org is also supported.
-     
+How to run Funakoshi-Miner on Linux and choose the miningpoolhub BitcoinGold pool:
+
+     funakoshiMiner -l europe.equihash-hub.miningpoolhub.com:20595 -u your-account-name.worker-name
+         or
+     funakoshiMiner --server us-east.equihash-hub.miningpoolhub.com --port 20595 --user your-account-name.worker-name
+
+How to run Funakoshi-Miner on Windows and choose btgpool:
+
+     funakoshiMiner.exe -l eu.btgpool.pro -u your-btg-wallet-address.worker-name    (eu. or us. or asia.)
+
 The following **BitcoinGold pools** are supported:
 
      suprnova, miningpoolhub, pool.gold, btgpool.pro, solo.btgpool.pro, coinblockers.com,
@@ -140,11 +150,14 @@ A breakthrough in performance has been implemented in release v2.1
     * Selected GPUs  : -cd 0 1 2 ... (selects which cuda-devices meaning GPUs to use - starting from 0)
                             The default when -cd arg is not specified is to use all found Nvidia gpu cards
                             (from v2.5).
-    * Pool Address   : -l poolDomain:sslPort  (domain of pool server plus SSL port)
+    * Pool Address   : -l poolDomain:port  (domain of pool server plus SSL port)
                             Port number is optional for: flypool, nanopool, suprnova, slushpool, coinmine.
                             For these pools the port number is auto fixed to the pool's ssl port when port
                             number is not specified or non ssl (from v2.5).
-    * Pool User      : -u user.worker (your account name in the pool plus worker name)
+    * Pool Domain    : --server (the poolDomain as in -l without the port)
+    * Pool Port      : --port (the pool port as port part in -l without the domain and without ':')
+    * Pool User      : -u account-or-wallet-name.worker (your account-name in the pool or wallet-address plus worker name)
+    * Pool User      : --user (synonym to -u)
     * Wallet Address : -u tWalletAddress.worker (your t wallet address plus worker name)
     * Max Temperature: -temp-max t1 t2 ... one value (celsius) per each GPU. When reached
                         solver suspends work until temp' drops to corresponding -temp-min
@@ -154,9 +167,11 @@ A breakthrough in performance has been implemented in release v2.1
     * Max Temp' all  : -temp-max-all t (defines same upper temperature bound for all GPUs).
     * Min Temp' all  : -temp-min-all t (defines same lower temperature bound for all GPUs).
     * Password       : -p x (usually not required)
+    * Password       : --pass (synonym to -p)
     * Log File       : -f fileName (from release v0.9)
     * Telemetry      : -tele-port p  (activating http telemetry and listening on 127.0.0.1:p).
     * <144,5>        : -144 (use equihash parameters 144,5). Default for BitcoinGold pools (since v3.4).
+    * <144,5>        : --algo 144_5 (synonym to -144)
 
 Notes:
 
