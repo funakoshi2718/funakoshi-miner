@@ -89,11 +89,11 @@ A breakthrough in performance has been implemented in release v2.1
 
     * Supernova
     * Flypool
+    * pool.gold
     * Miningpoolhub
     * btgpool.pro
     * coinblockers.com
     * btg.2miners.com
-    * pool.gold
     * bitcoingold.multipool.es
     * btg.mining4.co.uk
     * Slushpool
@@ -197,6 +197,10 @@ Notes:
 ## Usage example (on Windows & via Flypool Europe server & using 3 Nvidia devices):
 
     funakoshiMiner.exe -cd 0 1 2 -l eu1-zcash.flypool.org:3443 -u tYourWalletAddress.workerName
+
+## Usage example (on Windows & Mining BitcoinGold via pool.gold  & using all Nvidia devices):
+
+    funakoshiMiner.exe -l main.pool.gold -u tYourWalletAddress.workerName
 
 ## Usage example (on Linux & via Nanopool Europe server & using 2 Nvidia devices):
 
