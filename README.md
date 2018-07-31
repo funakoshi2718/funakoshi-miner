@@ -14,7 +14,7 @@ Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-
 
 How to run Funakoshi-Miner on Windows and choose the Suprnova BitcoinGold pool:
 
-     funakoshiMiner.exe -l btg.suprnova.cc -u your-account-name.worker-name
+     funakoshiMiner.exe -l btg.suprnova.cc:8817 -u your-account-name.worker-name
 
 How to run Funakoshi-Miner on Linux and choose the miningpoolhub BitcoinGold pool:
 
@@ -24,7 +24,7 @@ How to run Funakoshi-Miner on Linux and choose the miningpoolhub BitcoinGold poo
 
 How to run Funakoshi-Miner on Windows and choose btgpool:
 
-     funakoshiMiner.exe -l eu.btgpool.pro -u your-btg-wallet-address.worker-name    (eu. or us. or asia.)
+     funakoshiMiner.exe -l eu.btgpool.pro:1445 -u your-btg-wallet-address.worker-name    (eu. or us. or asia.)
 
 The following **BitcoinGold pools** are supported:
 
