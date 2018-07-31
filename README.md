@@ -29,7 +29,7 @@ How to run Funakoshi-Miner on Windows and choose btgpool:
 The following **BitcoinGold pools** are supported:
 
      suprnova, miningpoolhub, pool.gold, btgpool.pro, solo.btgpool.pro, coinblockers.com,
-     bitcoingold.multipool.es, btg.mining4.co.uk, btg.2miners.com
+     bitcoingold.multipool.es, btg.mining4.co.uk
      
 Also supporting live pool btcz.suprnova.cc (bitcoinz).
 
@@ -93,7 +93,6 @@ A breakthrough in performance has been implemented in release v2.1
     * Miningpoolhub
     * btgpool.pro
     * coinblockers.com
-    * btg.2miners.com
     * bitcoingold.multipool.es
     * btg.mining4.co.uk
     * Slushpool
