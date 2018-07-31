@@ -2,13 +2,13 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-In release v3.6 performance of EuqiHash<144, 5> has been improved by 2%.
+```
+In release v3.6 performance of EuqiHash<144, 5> has been improved by 2%,
+and added a zip file containing all files required for running the miner
+on windows including a batch-file.
+```
 
 In release v3.5 performance of EuqiHash<144, 5> has been improved by 5%.
-
-Release v3.4 supports EquiHash POW algorithm with parameters <144,5>.
-
-To activate it just add **-144** to the command line.
 
 Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-Work algorithm,
 
