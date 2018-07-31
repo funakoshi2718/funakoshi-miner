@@ -4,8 +4,8 @@ Funakoshi Equihash<144,5> Cuda Miner
 
 ```
 In release v3.6 performance of EuqiHash<144, 5> has been improved by 2%,
-and added a zip file containing all files required for running the miner
-on windows including a batch-file.
+and a zip file containing all files required for running the miner on
+windows (including a batch-file) has been added.
 ```
 
 In release v3.5 performance of EuqiHash<144, 5> has been improved by 5%.
