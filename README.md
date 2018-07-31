@@ -186,10 +186,6 @@ Notes:
     prevent Pascal GPUs from auto boosting. Thus it is recommended to run Firefox on the same
     machine or to run Chrome on another machine and use SSH tunnel.
 
-## Usage example (on Linux & via Slushpool & using 1 Nvidia device):
-
-    funakoshiMiner -cd 0 -l zec.slushpool.com:4443 -u userName.workerName
-
 ## Usage example (on Linux & via Supernova & using 1 Nvidia device & max GPU temperature):
 
     funakoshiMiner -cd 0 -l zec.suprnova.cc:2242 -u userName.workerName -temp-max 82 -temp-min 75
@@ -201,6 +197,10 @@ Notes:
 ## Usage example (on Windows & Mining BitcoinGold via pool.gold  & using all Nvidia devices):
 
     funakoshiMiner.exe -l main.pool.gold -u tYourWalletAddress.workerName
+
+## Usage example (on Linux & via Slushpool & using 1 Nvidia device):
+
+    funakoshiMiner -cd 0 -l zec.slushpool.com:4443 -u userName.workerName
 
 ## Usage example (on Linux & via Nanopool Europe server & using 2 Nvidia devices):
 
