@@ -3,7 +3,7 @@
 Funakoshi Equihash<144,5> Cuda Miner
 
 ```
-In release v3.9 performance of EquiHash<144, 5> has been improved by 1% and added support for GTX 1050ti
+In release v3.9 performance of EquiHash<144, 5> has been improved by 1% and added support for GTX 1050ti 4GB
 In release v3.8 performance of EuqiHash<144, 5> has been improved by 2%
 In release v3.7 performance of EuqiHash<144, 5> has been improved by 7%
 In release v3.6 performance of EuqiHash<144, 5> has been improved by 2%
