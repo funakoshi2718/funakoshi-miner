@@ -2,13 +2,8 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-```
-In release v3.9 performance of EquiHash<144, 5> has been improved by 1% and added support for GTX 1050ti 4GB
-In release v3.8 performance of EuqiHash<144, 5> has been improved by 2%
-In release v3.7 performance of EuqiHash<144, 5> has been improved by 7%
-In release v3.6 performance of EuqiHash<144, 5> has been improved by 2%
-In release v3.5 performance of EuqiHash<144, 5> has been improved by 5%
-```
+In release v4.1 performance of EquiHash<144, 5> has jumped.
+
 Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-Work algorithm,
 
 How to run Funakoshi-Miner on Windows and choose the Suprnova BitcoinGold pool:
@@ -46,7 +41,7 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
     Over 500 solves per-second for GTX 1080 <200,9> (without overclocking).
     
-    Average ~ 45 sol/s for GTX 1080 <144,5>
+    Over 45 sol/s for GTX 1080 <144,5>
     
     Nvidia Pascal GPUs auto manage the clock depending on current load.
     
