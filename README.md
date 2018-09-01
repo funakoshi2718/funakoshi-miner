@@ -2,7 +2,7 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-In release v4.1 performance of EquiHash<144, 5> has jumped.
+In release v4.2 performance of EquiHash<144, 5> has been improved.
 
 Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-Work algorithm,
 
@@ -41,8 +41,10 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
     Over 500 solves per-second for GTX 1080 <200,9> (without overclocking).
     
-    Over 45 sol/s for GTX 1080 <144,5>
+    Avg 46 sol/s for GTX 1080 <144,5>
+    Avg 41 sol/s for GTX 1070 <144,5>
     
+   
     Nvidia Pascal GPUs auto manage the clock depending on current load.
     
     Note: The statistical nature of the EquiHash algorithm causes
