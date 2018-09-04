@@ -78,7 +78,7 @@ A breakthrough in performance has been implemented in release v2.1
 ## Can be used for mining:
 
      All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
-     via any of the supported pools (using SSL ports).
+     via any of the supported pools.
 
 
 ## Supported pools:
@@ -99,12 +99,6 @@ A breakthrough in performance has been implemented in release v2.1
     * Luckpool
     * zhash.pro (from v3.5)
 
-## Why SSL:
-
-    Only secured ports (SSL connections) are supported.
-    The reason for that is to protect the developer fee
-    from being removed or redirected by proxy servers.
-    
 ## Privacy:
 
     Funakoshi-Miner collects absolutely nothing about its users.
