@@ -78,8 +78,8 @@ A breakthrough in performance has been implemented in release v2.1
 ## Can be used for mining:
 
      All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
-     via any of the supported pools (using SSL ports when supported
-     by the pool).
+     via any of the supported pools (using SSL ports when SSL is
+     supported by the pool).
 
 
 ## Supported pools:
