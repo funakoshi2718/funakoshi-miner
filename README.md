@@ -78,7 +78,8 @@ A breakthrough in performance has been implemented in release v2.1
 ## Can be used for mining:
 
      All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
-     via any of the supported pools.
+     via any of the supported pools (using SSL ports when supported
+     by the pool).
 
 
 ## Supported pools:
@@ -99,6 +100,13 @@ A breakthrough in performance has been implemented in release v2.1
     * Luckpool
     * zhash.pro (from v3.5)
 
+## Why SSL:
+
+    Only secured ports (SSL connections) are supported for
+    pools having SSL ports. For other pools SSL is not used.
+    The reason for that is to protect the developer fee
+    from being removed or redirected by proxy servers.
+    
 ## Privacy:
 
     Funakoshi-Miner collects absolutely nothing about its users.
@@ -139,10 +147,10 @@ A breakthrough in performance has been implemented in release v2.1
     * Selected GPUs  : -cd 0 1 2 ... (selects which cuda-devices meaning GPUs to use - starting from 0)
                             The default when -cd arg is not specified is to use all found Nvidia gpu cards
                             (from v2.5).
-    * Pool Address   : -l poolDomain:port  (domain of pool server plus port number)
-                            Port number is optional for most supported pools. The port
-                            number is auto fixed to a valid pool's port when port
-                            number is not specified or is invalid (from v2.5).
+    * Pool Address   : -l poolDomain:port  (domain of pool server plus SSL port)
+                            Port number is optional for: flypool, nanopool, suprnova, slushpool, coinmine.
+                            For these pools the port number is auto fixed to the pool's ssl port when port
+                            number is not specified or non ssl (from v2.5).
     * Pool Domain    : --server (the poolDomain as in -l without the port)
     * Pool Port      : --port (the pool port as port part in -l without the domain and without ':')
     * Pool User      : -u account-or-wallet-name.worker (your account-name in the pool or wallet-address plus worker name)
