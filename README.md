@@ -147,10 +147,11 @@ A breakthrough in performance has been implemented in release v2.1
     * Selected GPUs  : -cd 0 1 2 ... (selects which cuda-devices meaning GPUs to use - starting from 0)
                             The default when -cd arg is not specified is to use all found Nvidia gpu cards
                             (from v2.5).
-    * Pool Address   : -l poolDomain:port  (domain of pool server plus SSL port)
-                            Port number is optional for: flypool, nanopool, suprnova, slushpool, coinmine.
-                            For these pools the port number is auto fixed to the pool's ssl port when port
-                            number is not specified or non ssl (from v2.5).
+    * Pool Address   : -l poolDomain:port  (domain of pool server plus port number)
+                            Port number is optional for all pools except miningpoolhub.
+                            The port number is auto fixed to a the pool's ssl port (or to a valid
+                            non-ssl port when ssl is not supported) when the port number is not
+                            specified or is invalid or not ssl when ssl is available (from v2.5).
     * Pool Domain    : --server (the poolDomain as in -l without the port)
     * Pool Port      : --port (the pool port as port part in -l without the domain and without ':')
     * Pool User      : -u account-or-wallet-name.worker (your account-name in the pool or wallet-address plus worker name)
