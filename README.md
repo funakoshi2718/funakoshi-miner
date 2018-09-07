@@ -2,7 +2,9 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-In release v4.4 performance of EquiHash<144, 5> has been improved.
+From release v4.5 users can connect to any equihash pool supporting 200,9 or 144,5 algo.
+Also any port can be specified (ssl is no longer enforced), and the --pers parameter is
+supported allowing users to mine any 144,5 coin.
 
 Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-Work algorithm,
 
@@ -78,35 +80,8 @@ A breakthrough in performance has been implemented in release v2.1
 ## Can be used for mining:
 
      All equihash crypto coins: Zcash (ZEC), ZClassic (ZCL), ...
-     via any of the supported pools (using SSL ports when SSL is
-     supported by the pool).
+     Using EquiHash<200, 9> or EquiHash<144, 5> algorithms.
 
-
-## Supported pools:
-
-    * Supernova
-    * Flypool
-    * pool.gold
-    * Miningpoolhub
-    * btgpool.pro
-    * coinblockers.com
-    * bitcoingold.multipool.es
-    * btg.mining4.co.uk
-    * Slushpool
-    * Nanopool
-    * Miningspeed
-    * Coinmine
-    * Nibirupool
-    * Luckpool
-    * zhash.pro (from v3.5)
-
-## Why SSL:
-
-    Only secured ports (SSL connections) are supported for
-    pools having SSL ports. For other pools SSL is not used.
-    The reason for that is to protect the developer fee
-    from being removed or redirected by proxy servers.
-    
 ## Privacy:
 
     Funakoshi-Miner collects absolutely nothing about its users.
@@ -148,10 +123,6 @@ A breakthrough in performance has been implemented in release v2.1
                             The default when -cd arg is not specified is to use all found Nvidia gpu cards
                             (from v2.5).
     * Pool Address   : -l poolDomain:port  (domain of pool server plus port number)
-                            Port number is optional for all pools except miningpoolhub.
-                            The port number is auto fixed to a the pool's ssl port (or to a valid
-                            non-ssl port when ssl is not supported) when the port number is not
-                            specified or is invalid or not ssl when ssl is available (from v2.5).
     * Pool Domain    : --server (the poolDomain as in -l without the port)
     * Pool Port      : --port (the pool port as port part in -l without the domain and without ':')
     * Pool User      : -u account-or-wallet-name.worker (your account-name in the pool or wallet-address plus worker name)
@@ -170,6 +141,7 @@ A breakthrough in performance has been implemented in release v2.1
     * Telemetry      : -tele-port p  (activating http telemetry and listening on 127.0.0.1:p).
     * <144,5>        : -144 (use equihash parameters 144,5). Default for BitcoinGold pools (since v3.4).
     * <144,5>        : --algo 144_5 (synonym to -144)
+    * Pers-String    : --pers BgoldPow (when mining BitcoinGold, pers strings are part of submit msgs to pool).
 
 Notes:
 
