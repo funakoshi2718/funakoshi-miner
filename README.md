@@ -125,6 +125,7 @@ A breakthrough in performance has been implemented in release v2.1
                             The default when -cd arg is not specified is to use all found Nvidia gpu cards
                             (from v2.5).
     * Pool Address   : -l poolDomain:port  (domain of pool server plus port number)
+                           poolDomain can be prefixed by ssl:// to enforce using ssl (when specified port is ssl-port).
     * Pool Domain    : --server (the poolDomain as in -l without the port)
     * Pool Port      : --port (the pool port as port part in -l without the domain and without ':')
     * Pool User      : -u account-or-wallet-name.worker (your account-name in the pool or wallet-address plus worker name)
