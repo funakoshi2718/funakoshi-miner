@@ -2,7 +2,7 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-Since release v4.8 --pers auto switch is supported.
+Since release v4.8 --pers auto switch is supported (use auto only if your pool supports it).
 
 In release v4.7 performance of equihash 144,5 has been improved.
 
@@ -147,7 +147,7 @@ A breakthrough in performance has been implemented in release v2.1
     * <144,5>        : -144 (use equihash parameters 144,5). Default for BitcoinGold pools (since v3.4).
     * <144,5>        : --algo 144_5 (synonym to -144)
     * Pers-String    : --pers BgoldPow (when mining BitcoinGold, pers strings are part of submit msgs to pool).
-                       --pers auto (allow the pool to control the value of the personalization string).
+                       --pers auto (allow the pool to control the value of the personalization string, use only when supported by the pool).
 
 Notes:
 
