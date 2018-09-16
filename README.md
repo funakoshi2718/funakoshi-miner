@@ -45,7 +45,7 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
     Over 525 solves per-second for GTX 1080 <200,9> (without overclocking).
     
-    Avg 48 sol/s for GTX 1080 <144,5>
+    Avg 49 sol/s for GTX 1080 <144,5>
     Avg 42 sol/s for GTX 1070 <144,5>
     Avg 27 - 28 sol/s for GTX 1060 6gb
    
