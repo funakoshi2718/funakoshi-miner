@@ -3,6 +3,7 @@
 Funakoshi Equihash<144,5> Cuda Miner
 
 Since release v4.8 --pers auto switch is supported.
+
 In release v4.7 performance of equihash 144,5 has been improved.
 
 Since release v4.5 users can connect to any equihash pool supporting 200,9 or 144,5 algo.
