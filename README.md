@@ -2,7 +2,7 @@
 
 Funakoshi Equihash<144,5> Cuda Miner
 
-In release v4.9 performance of equihash 144,5 has been improved.
+In release v4.10 performance of equihash 144,5 has been significantly improved.
 
 Since release v4.8 --pers auto switch is supported (use auto only if your pool supports it).
 
@@ -47,7 +47,7 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
     Over 525 solves per-second for GTX 1080 <200,9> (without overclocking).
     
-    Avg 49 sol/s for GTX 1080 <144,5>
+    Avg 50 - 51 sol/s for GTX 1080 <144,5>
     Avg 42 sol/s for GTX 1070 <144,5>
     Avg 27 - 28 sol/s for GTX 1060 6gb
    
