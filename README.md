@@ -14,7 +14,7 @@ Funakoshi-Miner is the fastest miner for **Bitcoin-Gold** with the new Proof-Of-
 
 How to run Funakoshi-Miner on Windows and choose the 2miners BitcoinGold pool:
 
-    funakoshiMiner.exe --algo 144_5 --pers BgoldPoW --server btg.2miners.com --port 4040 --user your-wallet-addr.rig-id
+    funakoshiMiner.exe --algo 144_5 --pers BgoldPoW --server btg.2miners.com --port 4040 --user btg-wallet-addr.rig-id
 
 How to run Funakoshi-Miner on Windows and choose the Suprnova BitcoinGold pool:
 
