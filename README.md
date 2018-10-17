@@ -51,8 +51,9 @@ https://github.com/funakoshi2718/funakoshi-miner/releases
 
     Over 525 solves per-second for GTX 1080 <200,9> (without overclocking).
     
-    Avg 52 sol/s for GTX 1080 <144,5>
-    Avg 42 sol/s for GTX 1070 <144,5>
+    Avg 52      sol/s for GTX 1080   <144,5>
+    Avg 42      sol/s for GTX 1070   <144,5>
+    Avg 66 - 75 sol/s for GTX 1080ti <144,5>
    
     Nvidia Pascal GPUs auto manage the clock depending on current load.
     
